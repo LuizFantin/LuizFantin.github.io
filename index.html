@@ -1,229 +1,375 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Cassio Fernandes's personal web developer portfolio">
+    <meta name="author" content="Cassio Fernandes">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta property="og:title" content="Cassio Fernandes's Portfolio">
+    <meta property="og:description" content="Cassio Fernandes's personal web developer portfolio.">
+    <meta property="og:image" content="./public/images/bg_top.jpeg">
+    <meta property="og:url" content="https://casdak7.github.io/portfolio/">
 
-  <title>Portfólio - Luiz Fantin</title>
+    <link rel="icon" href="public/images/favicon.ico">
+
+    <title>Luiz Fantin - Web Developer</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="./public/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.min.css" rel="stylesheet">
-
+  <link href="./public/custom/grayscale.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+  <body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-        <img src="img/Logo.png" style="width: 100px; height: 100px;" alt="">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contato</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Luiz Fantin</a>
+        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about" id="about_nav">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects" id="projects_nav">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact" id="contact_nav">Contact</a>
+            </li>
+            <li style="display: flex; flex-direction: row; align-items: center;">
+              <a href="#" class="flag-link" language="portuguese">
+                <img class="flag-icon" src="./public/images/flags/brazil_flag.jpg">
+              </a>
+              <a href="#" class="flag-link active" language="english">
+                <img class="flag-icon" src="./public/images/flags/english_flag.jpg">
+              </a>
+            </li>
+            <li>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Luiz Fantin</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Desenvolvedor Web e Empresário Júnior</h2>
-        <a href="#signup" class="btn btn-primary js-scroll-trigger">Contato</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section id="about" class="about-section text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Sobre mim</h2>
-          <p class="text-white-50">Graduando em Engenharia da Computação. Atualmente, trabalhando como CEO e Gerente de Projetos de Sites e Sistemas Web na <a target="_blank" href="https://adapti.info/">Adapti - Soluções Web</a>.</p>
+            </li>
+          </ul>
         </div>
       </div>
-     
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
-    <div class="container">
-        <h1 style="text-align: center; margin-bottom: 100px;">Projetos</h1>
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/be-the-hero.jpeg" alt="Be the Hero">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Be the Hero</h4>
-            <p class="text-black-50 mb-0">Sistema web e um App feito em React (Web), React Native (App) e Node.js de cadastro de ONG's procurando pessoas para doar. Realizado durante a SemanaOmniStack.</p>
+    </nav>
+  
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <div class="main-text">
+            <h1 class="mx-auto my-0 text-uppercase text-black-50">Luiz Fantin</h1>
+            <h2 class="text-white mx-auto mt-2 mb-5" id="intro">Full Stack Web Developer with experience building solutions from start to finish</h2>
           </div>
+          <a href="#about" class="btn btn-primary js-scroll-trigger btn-page-top" id="btn_about">More About Me</a>
+          <a href="#projects" class="btn btn-primary js-scroll-trigger btn-page-top" id="btn_projects">See My Work</a>
         </div>
       </div>
-
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/jrxavier.png" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Jr Xavier Construtora</h4>
-            <p class="text-black-50 mb-0">Gerente de projeto de um Site Institucional com painel administrativo feito em HTML, CSS, JS e PHP(Laravel).</p>
+    </header>
+  
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-lg-4 mx-auto">
+            <h2 class="text-white mb-4" id="about_title">Who am I?</h2>
+            <p class="text-white-50 text-left" id="about_text">
+              <!-- A Computer Technician and Fullstack Web Developer, currently coursing Computer Science at the Federal University of Espirito Santo. A fast learner who mainly works with PHP and the Laravel Framework but always strives to learn new technologies. -->
+              Computer engineering student, automation technician and web developer with over three years of experience. Has worked as a team manager and developer in a great variety of projects. A fast learner who mainly works with PHP and the Laravel Framework but always strives to learn new technologies and is told to be very analytical.
+              <br>
+              <br>
+              Loves solving problems using technology.
+              <br>
+              <br>
+              A communication enthusiast.
+              <br>
+              <br>
+              <a href="#contact" class="js-scroll-trigger">Get in Touch</a>
           </div>
-        </div>
-      </div>
-
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/sec.png" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Secretaria de Saude de São Mateus - ES</h4>
-            <p class="text-black-50 mb-0">Gerente de projeto de um Sistema de processo seletivo para novos médicos desenvolvido em HTML, CSS, JS e PHP(Laravel).</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/jmepecas.png" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>JME Comércio de Peças e Veículos</h4>
-            <p class="text-black-50 mb-0">Execução de um Site Institucional com painel administrativo feito em HTML, CSS, JS e PHP(Laravel).</p>
-          </div>
-        </div>
-      </div>
-
-      
-
-
-
-    </div>
-  </section>
-
-  <!-- Signup Section -->
-  <section class="signup-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Entre em contato para mais informações</h2>
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="signup" class="contact-section bg-black">
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Localidade</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">São Mateus, Espírito Santo, Brasil</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">E-mail</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="#">luiz.fantin.neto@gmail.com</a>
+          <div class="col-lg-8 mx-auto">
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <h2 class="text-white mb-4" id="skills_title">Skills</h2>
+              </div>
+              <div class="col-lg-4 mx-auto">
+                <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    HTML
+                    <span class="badge badge-custom badge-pill">+3 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    CSS
+                    <span class="badge badge-custom badge-pill">+3 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Bootstrap
+                    <span class="badge badge-custom badge-pill">+3 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    JavaScript
+                    <span class="badge badge-custom badge-pill">+3 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Jquery
+                    <span class="badge badge-custom badge-pill">+2 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    React Native
+                    <span class="badge badge-custom badge-pill">1 Year</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 mx-auto">
+                <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    PHP
+                    <span class="badge badge-custom badge-pill">+3 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Laravel
+                    <span class="badge badge-custom badge-pill">+3 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    MySQL
+                    <span class="badge badge-custom badge-pill">+3 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    PostgreSQL
+                    <span class="badge badge-custom badge-pill">1 Year</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Git
+                    <span class="badge badge-custom badge-pill">+3 Years</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Node.js
+                    <span class="badge badge-custom badge-pill">1 Year</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 mx-auto">
+                <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span id="english">English</span>
+                    <span class="badge badge-custom badge-pill">Intermediate</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span id="portuguese">Portuguese</span>
+                    <span class="badge badge-custom badge-pill">Native</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Celular</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">(27)99612-1772</div>
+      </div>
+    </section>       
+  
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+        <!-- Featured Project Row -->
+        <div class="mx-auto text-center mb-5">
+          <h1 id="projects_title">Projects</h1>
+        </div>
+        <div class="row align-items-center no-gutters mb-5 mb-lg-5">
+          <div class="col-xl-5 col-lg-4 text-center project-image-sm">
+            <img class="img-fluid mb-3 mb-lg-0" style="width: 80%; height: auto" src="./public/images/projects/logo-completa-max.png" alt="">
+          </div>
+          <div class="col-xl-7 col-lg-8">
+            <div class="featured-text-left text-center text-lg-left projects">
+              <h4><span id="title">Instituto Perfil</span> - <small id="company">Adapti Soluções Web</small></h4>
+              <a href="https://institutoperfil.com.br/" class="visit_site_link">Visit Website</a>
+              <p class="text-black-50 mb-4" id="text">
+                A system designed to simplify the process of electoral research and report generation. Receives hundreds of requests during the day. Developed in record time and using the Scrum methodology.
+              </p>
+              <span class="badge badge-custom badge-pill">PHP</span>
+              <span class="badge badge-custom badge-pill">Laravel</span>
+              <span class="badge badge-custom badge-pill">MySQL</span>
+              <span class="badge badge-custom badge-pill">HTML</span>
+              <span class="badge badge-custom badge-pill">CSS</span>
+              <span class="badge badge-custom badge-pill">Boostrap</span>
+              <span class="badge badge-custom badge-pill">JavaScript</span>
+              <span class="badge badge-custom badge-pill">Jquery</span>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-4 text-center project-image-lg">
+            <img class="img-fluid mb-3 mb-lg-0" style="width: 80%; height: auto" src="./public/images/projects/logo-completa-max.png" alt="">
+          </div>
+        </div>
+        <div class="row align-items-center no-gutters mb-5 mb-lg-5">
+          <div class="col-xl-5 col-lg-4 text-center">
+            <img class="img-fluid mb-3 mb-lg-0" style="width: 90%; height: auto" src="./public/images/projects/prefeitura_edit.png" alt="">
+          </div>
+          <div class="col-xl-7 col-lg-8">
+            <div class="featured-text-right text-center text-lg-right projects">
+              <h4><span id="title">Selective Process São Mateus</span> - <small id="company">Adapti Soluções Web</small></h4>
+              <p class="text-black-50 mb-4" id="text">
+                A system created for simplifying the selective and hiring process of the department of health of the city of São Mateus. It received a few thousand applications of medical professionals. The system dealt with all applications for all different openings, with an intuitive layout and a robust backend. It was developed in a month by a team of three people.
+              </p>
+              <span class="badge badge-custom badge-pill">PHP</span>
+              <span class="badge badge-custom badge-pill">Laravel</span>
+              <span class="badge badge-custom badge-pill">MySQL</span>
+              <span class="badge badge-custom badge-pill">HTML</span>
+              <span class="badge badge-custom badge-pill">CSS</span>
+              <span class="badge badge-custom badge-pill">Boostrap</span>
+              <span class="badge badge-custom badge-pill">JavaScript</span>
+              <span class="badge badge-custom badge-pill">Jquery</span>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row align-items-center no-gutters mb-5 mb-lg-5">
+          <div class="col-xl-5 col-lg-4 text-center dark-image project-image-sm">
+            <img class="img-fluid mb-3 mb-lg-0" style="width: 80%; height: auto" src="./public/images/projects/arte.png" alt="">
+          </div>
+          <div class="col-xl-7 col-lg-8">
+            <div class="featured-text-left text-center text-lg-left projects">
+              <h4><span id="title">Arte da Gente</span> - <small id="company">Adapti Soluções Web</small></h4>
+              <a href="https://lojaartedagente.com.br/" class="visit_site_link">Visit Website</a>
+              <p class="text-black-50 mb-4" id="text">
+                Project developed in PHP and the Laravel Framework. A dynamic website and management system of an art store. 
+              </p>
+              <span class="badge badge-custom badge-pill">PHP</span>
+              <span class="badge badge-custom badge-pill">Laravel</span>
+              <span class="badge badge-custom badge-pill">MySQL</span>
+              <span class="badge badge-custom badge-pill">HTML</span>
+              <span class="badge badge-custom badge-pill">CSS</span>
+              <span class="badge badge-custom badge-pill">Boostrap</span>
+              <span class="badge badge-custom badge-pill">JavaScript</span>
+              <span class="badge badge-custom badge-pill">Jquery</span>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-4 text-center dark-image project-image-lg">
+            <img class="img-fluid mb-3 mb-lg-0" style="width: 80%; height: auto" src="./public/images/projects/arte.png" alt="">
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section bg-black">
+      <div class="container">
+  
+        <div class="row">
+  
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0" id="address">Address</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">São Mateus - ES</div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  luiz.fantin.neto@gmail.com
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Instagram</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">@luizfantinn</div>
+              </div>
             </div>
           </div>
         </div>
+  
+        <div class="social d-flex justify-content-center">
+          <a href="https://www.instagram.com/luizfantinn/?hl=pt-br" class="mx-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/LuizFantin" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/luizfantin/" class="mx-2">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+  
       </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright © Luiz Fantin 2021
+      </div>
+    </footer>
+  
+    <!-- Bootstrap core JavaScript -->
+    <script src="./public/vendor/jquery/jquery.min.js"></script>
+    <script src="./public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-      <div class="social d-flex justify-content-center">
+    <!-- Plugin JavaScript -->
+    <script src="./public/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+    <!-- Custom scripts for this template -->
+    <script src="./public/custom/grayscale.min.js"></script>
+    <script src="./public/custom/custom.js"></script>
+    <script>
+      
+      $('.flag-link').on('click', function (e){
+        e.preventDefault();
+
+        const selected_language = $(this).attr('language')
+
+        $('#about_nav').html(languages[selected_language].about_nav)
+        $('#projects_nav').html(languages[selected_language].projects_nav)
+        $('#contact_nav').html(languages[selected_language].contact_nav)
+        $('#intro').html(languages[selected_language].intro)
+        $('#btn_about').html(languages[selected_language].btn_about)
+        $('#btn_projects').html(languages[selected_language].btn_projects)
+        $('#about_title').html(languages[selected_language].about_title)
+        $('#about_text').html(languages[selected_language].about_text)
+        $('#skills_title').html(languages[selected_language].skills_title)
+        $('#english').html(languages[selected_language].english)
+        $('#portuguese').html(languages[selected_language].portuguese)
+        $('#projects_title').html(languages[selected_language].projects_title)
+        $('.visit_site_link').html(languages[selected_language].visit_site_link)
         
-        <a target="_blank" href="https://www.instagram.com/luizfantinn/" class="mx-2">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a target="_blank" href="https://github.com/LuizFantin" class="mx-2">
-          <i class="fab fa-github"></i>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/luiz-fantin-24a347170/" class="mx-2">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
+        let key = 0
+        $('.projects').toArray().forEach(element => {
+          $(element).find("#title").html(languages[selected_language].projects_section[key].title)
+          $(element).find("#company").html(languages[selected_language].projects_section[key].company)
+          $(element).find("#text").html(languages[selected_language].projects_section[key].text)
+          key++
+        })
+        
+        $('#address').html(languages[selected_language].address)
 
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-black small text-center text-white-50">
-    <div class="container">
-      Copyright &copy; Luiz Fantin 2019
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/grayscale.min.js"></script>
-
-</body>
-
-</html>
+        $('.flag-link').removeClass('active')
+        $(this).addClass('active')
+      })
+    </script>
+  
+  
+  </body></html>

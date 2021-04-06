@@ -1,0 +1,43 @@
+{
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "intro": "Full Stack Web Developer with experience building solutions from start to finish",
+    "btn_about": "MORE ABOUT ME",
+    "btn_projects": "SEE MY WORK",
+    "about_title": "Who am I?",
+    "about_text": "Computer science student, computer technician and web developer with over three year of experience. Has worked as a team manager and developer in a great variety of projects. A fast learner who mainly works with PHP and the Laravel Framework but always strives to learn new technologies and is told to be very analytical.\n\nLoves solving problems using technology.\n\nA language enthusiast.",
+    "skills_title": "Skills",
+    "english": "English",
+    "portuguese": "Portuguese",
+    "french": "French",
+    "project_title": "Projects",
+    "visit_site_link": "Visit Website",
+    "projects_section": [
+        {
+            "title": "Cardappin",
+            "company": "Freelancer",
+            "text": "Online Menu and Ordering system for restaurants developed in C#, ASP.NET MVC. Provided support and updates since 2020, be it layout changes, UI and UX improvements, or new functionalities for the system."
+        },
+        {
+            "title": "Sorvemax",
+            "company": "Adapti Soluções Web",
+            "text": "Was the project manager, developed in PHP and the Laravel Framework. An ice cream factory management system that manages production, finance, sales, purchases, inventory, and more. Developed in 2018 and updated in 2020."
+        },
+        {
+            "title": "Apoio Educacional",
+            "company": "Freelancer",
+            "text": "Project developed in PHP and the Laravel Framework. A dynamic website and management system of teaching material, classes and enrollment. Also manages payments, teacher's salaries, timetables, attendance, online tests, and more. First version developed in 2017 and updated in 2019, in partnership with <a href='https://github.com/Joaovbf'>João Vitor Barros Farias</a>."
+        },
+        {
+            "title": "Selective Process São Mateus",
+            "company": "Adapti Soluções Web",
+            "text": "System created for symplifying the selective and hiring process of the department of health of the city of São Mateus. It received a few thousand applications of medical professionals. The system dealt with all applications for all different openings, with an intuitively layout and a robust backend. It was developed in a month by a team of three people."
+        },
+        {
+            "title": "Arte da Gente",
+            "company": "Adapti Soluções Web",
+            "text": "Project developed in PHP and the Laravel Framework. A dynamic website and management system of an art store."
+        }
+    ]
+}
